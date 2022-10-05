@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tNfTH7lRLUhJ0Mnf2cwRLBpWNmD0pDlSQLuOT74kgGJeBNgKlGi0T6HsG6amEZlmZU09bCb4r8+rvfi2+04LWQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\PrivateEye.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64"
+    }
+  ]
+}

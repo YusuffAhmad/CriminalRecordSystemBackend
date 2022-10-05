@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\PrivateEye.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\PrivateEye.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\PrivateEye.csproj",
+        "projectName": "PrivateEye",
+        "projectPath": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\PrivateEye.csproj",
+        "packagesPath": "C:\\Users\\OLALEKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Projects\\MyProjects\\FinalProject\\PrivateEyes\\PrivateEye\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OLALEKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FubarCoder.RestSharp.Portable.Core": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "FubarCoder.RestSharp.Portable.HttpClient": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "JsonSubTypes": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Mandrill": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "NCrontab.Signed": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.27, 3.1.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
