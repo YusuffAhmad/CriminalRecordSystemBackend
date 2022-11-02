@@ -19,7 +19,7 @@ namespace PrivateEye.Implementations.Repositories
         }
         public async Task<User> ExistsByEmailAsync(string Email, string password)
         {
-            var user = await _Context.Users.Include(user => user.UserRoles).ThenInclude( x => x.Role).FirstOrDefaultAsync(x => x.Email == Email && x.IsDeleted == false);
+            var user = await _Context.Users.Include(user => user.UserRoles).ThenInclude( x => x.Role).FirstOrDefaultAsync(x => x.Email.Equals(Email)  && x.IsDeleted == false);
             return user;
         }
 
